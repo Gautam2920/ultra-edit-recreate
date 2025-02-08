@@ -1,0 +1,360 @@
+
+.logo img{
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right ul li span{
+    padding: 0 5px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.content h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content h2 span {
+    color: #cec922;
+}
+
+.content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.btn-download {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-download:hover {
+    background-color: #0078a0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.grid-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.grid-container p {
+    margin-bottom: 20px;
+}
+
+.grid-container a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+.grid-container a:hover {
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.grid-item p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.grid-item button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.grid-item button:hover {
+    background-color: #218838;
+}
+
+.grid-item code {
+    display: block;
+    margin-top: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.8rem;
+    word-wrap: break-word;
+    color: #666;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #252525;
+    margin: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.newsletter-section .content {
+    max-width: 50%;
+}
+
+.newsletter-section .content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsletter-section .content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.newsletter-section .form-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.newsletter-section .form-container h3 {
+    color: #00c2ff;
+    margin-bottom: 10px;
+}
+
+.newsletter-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter-section form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-section form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #00c2ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-section form button:hover {
+    background-color: #009acb;
+}
+
+.info-section {
+    padding: 40px;
+    background-color: #252525;
+    border-radius: 10px;
+    margin: 20px;
+    color: #fff;
+}
+
+.info-section .info {
+    margin-bottom: 20px;
+}
+
+.info-section .info h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.info-section .info a {
+    color: #00c2ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.info-section .info a:hover {
+    color: #009acb;
+}
+
+.footer-section {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.footer-column ul li a {
+    color: #0073e6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #005bb5;
+}
+
+.footer-subscribe {
+    text-align: center;
+    flex: 1;
+}
+
+.footer-subscribe h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.footer-subscribe p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.footer-subscribe form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-subscribe form input {
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 250px;
+}
+
+.footer-subscribe form button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    border: none;
+    background-color: #0073e6;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-subscribe form button:hover {
+    background-color: #005bb5;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.footer-logo img {
+    max-height: 40px;
+}
+
+.footer-social a {
+    margin: 0 5px;
+    color: #0073e6;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #005bb5;
+}
