@@ -27,7 +27,7 @@ UltraEdit-Clone/
 
 1. **Clone this repository**  
    ```bash
-   git clone https://github.com/Gautam2920/UltraEdit-Recreate.git
+   git clone https://github.com/Gautam2920/ultra-edit-recreate.git
 2.  **Navigate into the project folder**
 ```bash
 cd UltraEdit-Clone   
