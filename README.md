@@ -1,6 +1,6 @@
 # UltraEdit Download Page Clone
 
-This project is a **clone of the UltraEdit download page**, built using **HTML, CSS, and JavaScript**. It replicates the design and layout of the original UltraEdit website, providing users with a visually appealing and responsive interface.
+This project is a **clone of the UltraEdit download page**, built purely using **HTML, CSS**. It replicates the design and layout of the original UltraEdit website, providing users with a visually appealing and responsive interface.
 
 ## 🚀 Features
 
