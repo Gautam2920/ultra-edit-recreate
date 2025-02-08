@@ -1,39 +1,45 @@
-UltraEdit-Style Webpage Clone
-This is a responsive UltraEdit-style webpage built with HTML, CSS, and JavaScript. It replicates the UI of the UltraEdit download page, featuring a navigation bar, download section, newsletter signup, and footer.
+UltraEdit Navbar Clone
 
-🛠️ Technologies Used
-HTML5 – Structure of the webpage
-CSS3 – Styling and responsiveness
-JavaScript (Optional) – For interactive elements (if needed)
-📂 Project Structure
-bash
-Copy
-Edit
-UltraEdit-Clone/
-│── index.html            # Main HTML file
-│── style.css             # Stylesheet for the webpage
-│── script.js             # JavaScript file (if needed)
-│── assets/               # Stores images and icons
-│── README.md             # Documentation
-🌟 Features
-✅ Navigation Bar – Contains dropdown menus for Products, Pricing, Resources, and About Us.
-✅ Download Section – Users can download UltraEdit in different languages with SHA256 verification.
-✅ Newsletter Signup – Users can subscribe to updates via email.
-✅ Information Section – Explains software versions, free trial, and installation options.
-✅ Footer with Links – Contains sections for different user needs and legal information.
+Overview
+This project is a simple UltraEdit Navbar Clone built using HTML and CSS. It replicates the header and footer structure of UltraEdit's official website while implementing a responsive and clean layout.
 
-🚀 How to Use
+Features
+Responsive navigation bar with dropdown icons
+Download section for different language versions
+Newsletter subscription section
+Footer with multiple sections
+Styled using CSS for a professional look
+
+Technologies Used
+HTML5
+CSS3
+
+Installation & Usage
+
 Clone this repository:
-bash
-Copy
-Edit
-git clone https://github.com/your-repo/UltraEdit-Clone.git
-Open index.html in a web browser.
-Modify style.css or script.js if needed.
-🎨 Customization
-Modify the colors in style.css for a different look.
-Change the images/logos in the assets/ folder.
-Improve animations using CSS transitions.
-Add interactivity with JavaScript for dropdowns and effects.
-📜 License
-This project is for educational purposes only and not affiliated with UltraEdit.
+```bash
+git clone https://github.com/Gautam2920/ultraedit-recreate.git
+```
+
+Navigate to the project folder:
+```bash
+cd ultraedit-recreate
+```
+
+Open the index.html file in your web browser:
+```bash
+open index.html
+```
+
+Folder Structure
+```shell
+/
+│── index.html      # Main HTML file
+│── style.css       # CSS file for styling
+└── assets/         # Images & other assets (if needed)
+```
+Contributing
+Feel free to fork this project and submit a pull request for improvements or new features.
+
+License
+This project is for educational purposes only and does not intend to infringe on UltraEdit’s trademarks or copyrights.
