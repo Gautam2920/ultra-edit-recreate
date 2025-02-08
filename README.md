@@ -17,20 +17,27 @@ CSS3
 Installation & Usage
 
 Clone this repository:
+```bash
 git clone https://github.com/Gautam2920/ultraedit-recreate.git
+```
 
 Navigate to the project folder:
+```bash
 cd ultraedit-recreate
+```
 
 Open the index.html file in your web browser:
+```bash
 open index.html
+```
 
 Folder Structure
+```shell
 /
 │── index.html      # Main HTML file
 │── style.css       # CSS file for styling
 └── assets/         # Images & other assets (if needed)
-
+```
 Contributing
 Feel free to fork this project and submit a pull request for improvements or new features.
 
